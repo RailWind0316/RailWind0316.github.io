@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<div id="page404-content" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="content-holder text-center">
+                    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                    <h1>哦，天哪。</h1>
+                    <p>您访问的页面不见了啦/(ㄒoㄒ)/~~ <br>
+                    这个页面可能接受不到来自地球的电磁波哦</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-2">
+                <div class="content-holder">
+                    <iframe frameborder="0" width="70%" height="260" scrolling="no" allowtransparency="true" src="https://surveymywebsite.polldaddy.com/s/just-a-quick-question?iframe=1"><a href="https://surveymywebsite.polldaddy.com/s/just-a-quick-question">View Survey</a></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
