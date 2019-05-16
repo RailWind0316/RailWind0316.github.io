@@ -13,14 +13,5 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-2">
-                <div class="content-holder">
-                    <iframe frameborder="0" width="70%" height="260" scrolling="no" allowtransparency="true" src="https://surveymywebsite.polldaddy.com/s/just-a-quick-question?iframe=1"><a href="https://surveymywebsite.polldaddy.com/s/just-a-quick-question">View Survey</a></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 </body>
 </html>
