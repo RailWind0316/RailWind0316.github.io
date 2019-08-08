@@ -422,48 +422,6 @@
 
 
 
-
-{% if page.comments %}
-
-{% if theme.disqus.enable %}
-  <div style="text-align:center;">
-  <button class="btn" id="load-disqus" onclick="disqus.load();">加载 Disqus 评论</button>
-  </div>
-{% endif %}
-
- #核心代码
-{% if theme.livere.enable or theme.gitment.enable or theme.disqus.enable %}
-  <div class="comments" id="comments">
-
-  {% if theme.livere.enable %}#使用主题配置来必力新增控制
-    <div id="lv-container" data-id="city" data-uid="{{ theme.livere.livere_uid }}"></div>
-  {% endif %}
-
-  {% if theme.gitment.enable %}#gitment
-   {% if theme.gitment.lazy %}
-    <div onclick="showGitment()" id="gitment-display-button">{{ __('gitmentbutton') }}</div>
-    <div id="gitment-container" style="display:none"></div>
-   {% else %}
-   <div id="gitment-container"></div>
-   {% endif %}
-  {% endif %}
-
-  {% if theme.disqus.enable %}# disqus
-   <div style="text-align:center;">
-   </div>
-   <div id="disqus_thread">
-   <noscript>
-    Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-   </noscript>
-   </div>
-  {% endif %}
-
-  </div>
- {% endif %}
-{% endif %}
-
-
         </div>
         
           
