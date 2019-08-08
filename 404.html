@@ -412,9 +412,14 @@
 
   
     <div class="comments" id="comments">
+      
+<div style="text-align:center;">
+  <button class="btn" id="load-disqus" οnclick="disqus.load();">加载评论</button>
+</div>
       <div id="disqus_thread">
         <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
       </div>
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80NDIxOC8yMDc1MQ=="></div>
     </div>
 
   
@@ -768,6 +773,8 @@
 
 
 <script>
+   var disqus = {
+     load : function disqus(){
   var disqus_config = function() {
     this.page.url = "https://railwind0316.github.io/404.html";
     this.page.identifier = "404.html";
@@ -778,9 +785,23 @@
     s.src = 'https://railwind.disqus.com/embed.js';
     s.setAttribute('data-timestamp', '' + +new Date());
     (d.head || d.body).appendChild(s);
+     (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+           $('#load-disqus').remove(); ///加载后移除按钮
+         }
+     }
+   }
   }
   
     loadComments();
+    
   
 </script>
 
