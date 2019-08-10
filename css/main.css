@@ -1775,7 +1775,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2a1bde;
+  background: #b4ff14;
 }
 .feed-link,
 .chat {
@@ -2976,7 +2976,6 @@ ul.breadcrumb li+li:last-child {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 .content {
-  border-radius: 20px;
   padding: 30px 60px 30px 60px;
   background: rgba(255,255,255,0.8) none repeat scroll !important;
 }
